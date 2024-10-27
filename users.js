@@ -2,7 +2,7 @@ export const  users =[
     {
     id:1,
     name: 'Abdullah',
-    usernmae:'Abdul',
+    username:'Abdul',
     email:'abdul@gmail.com',
     phone:'90786543',
     age:12,
@@ -10,7 +10,7 @@ export const  users =[
 {
     id:2,
     name: 'Shakirudeen',
-    usernmae:'Abdul',
+    username:'shakirudeen',
     email:'Shakirudeen@gmail.com',
     phone:'90786543',
     age:9,
@@ -18,7 +18,7 @@ export const  users =[
 {
     id:3,
     name: 'Yakub',
-    usernmae:'Yakub',
+    username:'Yakub',
     email:'Yakub@gmail.com',
     phone:'90786543',
     age:21,

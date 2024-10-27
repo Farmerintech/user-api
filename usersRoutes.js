@@ -59,12 +59,12 @@ export const createUser = (req, res ) => {
 }
 
 export const deleteUser = (req, res)=>{
-    const userId = req.params.id
+    const userId = Number(req.params.id)
     const user = users.find((user) => user.id === userId);
     if(!user){
         return res.status(404).json({msg:`No user with id ${userId}`})
     }
-    const users = users.filter(user => user.id !==userId);
+    const newUser = users.filter(user => user.id !==userId);
     res.status(200).json({msg:`user deleted successfully....`, newUser})
 
 }
