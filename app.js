@@ -1,4 +1,4 @@
-import express, { Router, urlencoded } from "express";
+import express from "express";
 import {router} from './router.js'
 const PORT = process.env.PORT || 5000
 const app = express();
